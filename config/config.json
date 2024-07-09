@@ -1,0 +1,9 @@
+{
+    "database": {
+    "username": "root",
+    "password": "root1405",
+    "database": "bookstore",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
