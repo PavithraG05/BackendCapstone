@@ -47,6 +47,9 @@ app.use('/api/books', bookRoutes)
 const genreRoutes = require('./routes/genreRoutes')
 app.use('/api/genres', genreRoutes)
 
+const userRoutes = require('./routes/userRoutes')
+app.use('/api/users', userRoutes)
+
 app.get('/', (req, res) => {
   res.send('Welcome to the Book store demo!')
 })
